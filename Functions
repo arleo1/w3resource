@@ -54,3 +54,26 @@ a = input("Enter a string: ")
 str(a)
 
 # 8. Write a Python function that takes a list and returns a new list with unique elements of the first list.
+
+def str(a):
+    list = []
+    for i in a:
+        if i not in list:
+            list.append(i)
+    return list
+
+print(str([1,2,3,3,3,3,4,5]))
+
+# 9. Write a Python function that takes a number as a parameter and check the number is prime or not.
+
+def str(a):
+    for i in range(2,10):
+        if a%i==0 and a!=i:
+            return False
+        else:
+            return True
+
+a = int(input("Enter a num: "))
+print(str(a))
+
+# 10. 

@@ -1,0 +1,19 @@
+# 1. Write a Python function to find the Max of three numbers
+
+def max1(a,b,c):
+    print(max(a,b,c))
+    
+# 2. Write a Python function to sum all the numbers in a list. 
+
+def sum1(a,b,c):
+    print(a+b+c)
+    
+# 3. Write a Python function to multiply all the numbers in a list.
+
+def mult(a,b,c):
+    print(a*b*c)
+    
+# 4. Write a Python program to reverse a string
+
+def reverse(a):
+    print(a[::-1])

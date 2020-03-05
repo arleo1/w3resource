@@ -17,3 +17,16 @@ def mult(a,b,c):
 
 def reverse(a):
     print(a[::-1])
+
+# 5. Write a Python function to calculate the factorial of a number (a non-negative integer). 
+# The function accepts the number as an argument.
+
+def fact(a):
+    if a == 0:
+        return 1
+    else:
+        return a*fact(a-1)
+
+a = int(input("Enter a num: "))
+print(fact(a))
+

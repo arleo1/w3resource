@@ -76,4 +76,25 @@ def str(a):
 a = int(input("Enter a num: "))
 print(str(a))
 
-# 10. 
+# 10. Write a Python program to print the even numbers from a given list.
+
+def str(a):
+    list = []
+    for i in a:
+        if i%2==0:
+            list.append(i)
+    return list
+
+print(str([1, 2, 3, 4, 5, 6, 7, 8, 9]))
+
+# 11. Write a Python function to check whether a number is perfect or not. 
+
+def str(a):
+    total=0
+    for i in range(1,a):
+        if a%i==0:
+            total += i
+    return total == a
+
+a = int(input("Enter a num: "))
+print(str(a))

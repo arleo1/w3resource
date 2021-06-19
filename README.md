@@ -1,2 +1,2 @@
-# w3resource
-My answers for w3resource practice problems
+# w3resource-Python Exercises
+My Python solutions for w3resource practice problems.
